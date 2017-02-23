@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:500');
+
+body {
+	font-family: Arial, sans-serif;
+	font: 16px;
+	background-position: center;
+	text-decoration: none;
+	background-image: url(../unit_3/images/fmglobe.jpg);
+	}
+
+header {
+	height: 7em;
+	background-color: black;
+	width: 100%;
+
+}	
+
+
+nav ul li {
+	float: right;
+	font-size: 1em;
+	padding: 1em;
+	font-family: 'Rokkitt', serif;
+	color: white;
+	text-decoration-line: none;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	font-size: 1.5em;
+}
+
+hr {
+	width: 30em;
+	color: black;
+}
+p {
+	font-size: 1em;
+	font-family: 'Rokkitt', serif;
+	color: white;
+}
+
+
+footer {
+	background-color: black;
+	width: 100%;
+}
+
+img {
+	height: 950px;
+	width: 100%;
+}
+
+.Resume {
+	background-color: #C38C67;
+}
+
+.Resume h1 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+
+.Resume p {
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Rokkitt';
+	color: black;
+
+}
+
+.Resume ul li {
+	font-family: 'Rokkitt';
+	font-size: 1.5em;
+}
+
+#slogan {
+	font-size: 4em;
+	color: rgb(0,0,77);
+	text-align: center;
+}
+
+#secondslogan {
+	font-size: 2.5em;
+	color: black;
+	text-align: center;
+}
+#name {
+	font-size: 1em;
+	color: white;
+	font-family: 'Rokkitt', serif;
+	padding-left: 5em;
+	text-transform: uppercase;
+}
+
+.intro {
+	text-align: center;
+	color: black;
+	font-size: 1.4em;
+	font-family: 'Rokkitt', serif;
+	margin: 2em auto;
+
+}
+
+.intro ul li {
+	font-size: 1em;
+	margin: 1em auto;
+
+
+}
+
