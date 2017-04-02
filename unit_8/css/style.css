@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:500');
+@import url('https://fonts.googleapis.com/css?family=Yesteryear');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Merriweather', sans-serif;
+	font-size: 16px;
+	line-height:1.5;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #00002B;
+}
+
+nav{
+	/*font-size: 1em;*/
+	font-family: Arial, sans-serif;
+	/*border: 1px solid red;*/
+	width: 50%;
+	min-height: 1em;
+	float: right;
+	margin: 1em 1em 0 0;
+	text-align: left;
+	padding-top: 1em;
+
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	font-size: 1.1em;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #6063A3;
+}
+
+a:hover {
+	background-color: #393E5E;
+	color: white;
+}
+
+main {
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+}
+
+footer {
+	/*border: 2px solid green;*/
+	display: inline-block;
+	width: 100%;
+	margin-top: 5em;
+}
+
+
+.wrapper {
+	background-image: url("../images/secaucussunset2.jpg");
+	background-size: 100%;
+	background-position: center top;
+	background-repeat: repeat;
+	width: 75%;
+	margin: 5em auto;
+	border: 2px solid black;
+}
+
+
+#contact {
+	font-family: Arial, sans-serif;
+	/*border: 2px solid black;*/
+	width: 25%;
+	float: left;
+	/*text-align: center;*/
+	min-height: 3em;
+	/*margin-bottom: 5em;*/
+
+}
+
+#contact p {
+	display: block;
+	color: #6063A3;
+	font-size: 1em;
+	/*padding: 1em;	*/
+}
+
+#socialmedia {
+	font-family: Arial, sans-serif;
+	/*border: 1px solid blue;*/
+	width: 25%;
+	float: left;
+}
+
+#socialmedia p {
+	font-size: 1em;
+	color: #6063A3;
+}
+
+#more {
+	font-family: Arial, sans-serif;
+	/*border: 1px solid red;*/
+	width: 25%;
+	float: left;
+}
+
+#more p {
+	font-size: 1em;
+	color: #6063A3;
+
+}
+
+#logo {
+	/*border: 1px solid green;*/
+	width: 40%;
+	float: left;
+	margin: 1em 0 0 1em;
+}
+
+#splash{
+	/*border: 1px solid black;*/
+	width: 50%;
+	min-height: 4em;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2em;
+
+
+}
+
+#splash ul li {
+	/*font-weight: 1em;*/
+	text-align: left;
+	color: #FCFCFC;
+	list-style-type: disc;
+	font-size: 1.2em;
+	line-height: 1.5em;
+
+}
+
+#peace {
+	width: 3%;
+
+}
+
+@media only screen and (max-width: 1320px){
+
+	nav{
+		margin-top: 3em;
+	}
+	nav ul li{
+		padding-left: .5em;
+		width: 60%;
+
+	}
+
+	footer{
+		/*background-color: grey;*/
+	}
+
+	#splash{
+		width: 60%;
+
+	}
+
+	#logo {
+		margin-top: 2em;
+	}
+}
+
+@media only screen and (max-width: 1225px){
+	
+	nav ul li{
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1140px){
+	#splash{
+		width: 85%;
+	}
+
+	#splash ul li{
+		line-height: 1.7em;
+	}
+
+	nav{
+		float: none;
+		margin: 0 auto;
+		width: 85%;
+		text-align: center;
+	}
+
+	nav ul li{
+		padding: 0 2em 0 2em;
+		font-size: 1.2em;
+	}
+
+
+	#logo{
+		float: none;
+		text-align: center;
+		margin: 1em 0 0 8em;
+		width: 75%;
+		max-height: 10em;
+
+	}
+
+	.wrapper {
+		width: 95%;
+		margin: 1em;
+	}
+
+	#contact p{
+		font-size: 1em;
+	}
+
+	#socialmedia p{
+		font-size: 1em;
+	}
+
+	#more p{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 800px){
+
+
+	#splash ul li{
+		font-size: 1em;
+		line-height: 2.5em;
+		
+	}
+
+	#splash{
+		width: 95%;
+	}
+
+	#contact{
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	#contact p{
+		font-size: 1em;
+	}
+
+	#socialmedia {
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	#socialmedia p{
+		font-size: 1em;
+
+	}
+
+	#more{
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+
+	}
+
+
+	#more p{
+		font-size: 1em;
+
+	}
+
+	#logo{
+		margin: 0 0 0 10em;
+		max-height: 5em;
+		width: 50%;
+	}
+
+	nav{
+		text-align: center;
+		max-height: 8em;
+		width: 95%;
+	}
+
+	nav ul li{
+		display: inline;
+		font-size: 1em;
+		padding: 0 1em;
+		/*padding-top: 0;*/
+
+	}
+
+	footer{
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 590px){
+
+	#logo{
+		width: 95%;
+		margin-left: 1em;
+		max-height: 4em;
+	}
+
+	footer{
+		margin-top: 0;
+	}
+
+	#splash{
+		width: 95%;
+		margin-left: 1em;
+
+	}
+
+	#splash ul li{
+		line-height: 1.75em;
+
+	}
+
+	nav ul li{
+		display: inline-block;
+	}
+
+
+	#contact{
+		
+	}
+
+	#contact p{
+		font-size: 1em;
+	}
+
+	#socialmedia {
+		
+		
+	}
+
+	#socialmedia p{
+		font-size: 1em;
+
+	}
+
+	#more{
+		
+
+	}
+
+
+	#more p{
+		font-size: 1em;
+
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+#reswrapper {
+	background-image: url("../images/bondpaperbackground.jpg");
+	background-size: 85%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	border: 2px solid black;
+}
+
+#resmain{
+	width: 60%;
+	margin: 0 auto;
+}
+
+#resmain h2 {
+	padding: 1em 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+#resmain h3 {
+	font-family: 'Poppins', sans-serif;
+	padding: 1em 0;
+}
+
+#resmain ul li {
+	margin-left: 1em;
+}
+
+#resmain p {
+	padding-left: 1em;
+}
+
+#rescontact {
+	width: 100%;
+	/*border: 1px solid green;*/
+	text-align: center;	
+}
+
+#rescontact h1 {
+	display: inline-block;
+	padding: 1em;
+	font-family: 'Poppins', sans-serif;
+	/*margin-left: 1em;*/
+
+}
+
+#resprofile {
+	/*border: 1px solid blue;*/
+	/*width: 100%;*/
+}
+
+#resskills {
+	/*border: 1px solid yellow;*/
+	/*width: 100%;*/
+}
+
+#software {
+	/*border: 1px solid orange;*/
+	width: 47%;
+	float: left;
+}
+
+#software ul li {
+	list-style-type: none;
+	/*width: 100%;*/
+	/*float: right;*/
+}
+
+.otherskills {
+	/*border: 1px solid pink;*/
+	width: 47%;
+	float: right;
+}
+#resexperience {
+	/*border: 1px solid purple;*/
+	clear: both;
+	/*width: 100%;*/
+}
+#reseducation {
+	/*border: 1px solid brown;*/
+	/*width: 100%;*/
+}
+
+#reseducation p {
+	padding-bottom: 1em;
+}
+
+#resfooter {
+	width: 60%;
+	/*border: 1px solid red;*/
+	font-family: 'Yesteryear', cursive;
+	margin: 0 auto;
+	padding: 1em 0;
+}
+
+#aboutbody{
+	background-color: orange;
+	width: 85%;
+}
+
+#aboutwrapper {
+	width: 75%;
+}
+
+#bio {
+	background-color: white;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
